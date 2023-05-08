@@ -1,0 +1,140 @@
+// -------------------------------------
+
+/**
+ * Função que calcula a soma de 2 números
+ * @param {number} a - O primeiro número.
+ * @param {number} b - O segundo número.
+ * @returns {number} A soma dos dois numeros
+ */
+function soma(a, b) {
+   return a + b;
+  let result = soma(5, 10);
+console.log(result0);
+  // @todo implementar retorno da operação aqui
+}
+
+/**
+ * Função que calcula a multiplicação de 2 números
+ * @param {number} a - O primeiro número.
+ * @param {number} b - O segundo número.
+ * @returns {number} A multiplicação dos dois numeros
+ */
+function multiplicacao(a, b) {
+  return a * b;
+  let resultado = multiplicar(4, 5);
+console.log(resultado);
+  // @todo implementar retorno da operação aqui
+}
+
+/**
+ * Função que calcula a divisão de 2 números
+ * @param {number} a - O primeiro número.
+ * @param {number} b - O segundo número.
+ * @returns {number} A divisão dos dois numeros
+ */
+function divisao(a, b) {
+  return a / b;
+  console.log(divisao(10, 5)); 
+console.log(divisao(5, 0));
+  // @todo implementar retorno da operação aqui
+}
+
+/**
+ * Função que calcula a subtração de 2 números
+ * @param {number} a - O primeiro número.
+ * @param {number} b - O segundo número.
+ * @returns {number} A subtração dos dois numeros
+ */
+function subtracao(a, b) {
+  return a - b;
+  let resultado = subtrair(10, 5);
+console.log(resultado);
+  // @todo implementar retorno da operação aqui
+}
+
+/**
+ * Função que resto da divisão de 2 números
+ * @param {number} a - O primeiro número.
+ * @param {number} b - O segundo número.
+ * @returns {number} O resto da divisão dos dois numeros
+ */
+function modulo(a, b) {
+  return a % b;
+  const resultado = restoDivisao(10, 3);
+console.log(resultado);
+  // @todo implementar retorno da operação aqui
+}
+
+/**
+ * Função que calcula o maior número entre 2
+ * @param {number} a - O primeiro número.
+ * @param {number} b - O segundo número.
+ * @returns {number} O maior número
+ */
+function max(a, b) {
+   if (a > b) {
+    return a;
+  } else {
+    return b;
+  }
+  console.log(maiorEntreDois(10, 5));
+console.log(maiorEntreDois(-3, 8));
+  // @todo implementar retorno da operação aqui
+}
+
+// -------------------------------------
+
+/**
+ * Função que concatena 2 strings utilizando template strings
+ * @param {string} a - A primeira string
+ * @param {string} b - A segunda string
+ * @returns {string} As 2 strings concatenadas
+ */
+function strConcat(a, b) {
+  return `${a}${b}`;
+  const string1 = "Hello";
+const string2 = "world!";
+const resultado = concatenaStrings(string1, string2);
+console.log(resultado);
+  // @todo implementar retorno da operação aqui
+}
+
+// --------------------------------------
+
+/**
+ * Função que implementa controle de fluxo
+ * 
+ * @param {number} numero - O número em questão
+ * @returns {string} 
+ *  - "Maior que 10" quando o número é maior que 10
+ *  - "Igual a 10" quando o número é igual a 10
+ *  - "Menor que 10" quando o número é menor que 10
+ */
+function retornaNumero(numero) {
+   if (numero > 10) {
+    return "Maior que 10";
+  } else if (numero === 10) {
+    return "Igual a 10";
+  } else {
+    return "Menor que 10";
+  }
+  
+  // @todo implementar retorno da operação aqui
+}
+
+// --------------------------------------
+
+/**
+ * Função que valida se o número em questão é positivo
+ * @param {number} num - Número em questão
+ * @returns {boolean} Retorna true para números positivos
+ */
+function ehPositivo(num) {
+   if (num > 0) {
+    return true;
+  } else {
+    return false;
+  }
+  // @todo implementar retorno da operação aqui
+}
+
