@@ -9,7 +9,7 @@
 function soma(a, b) {
    return a + b;
   let result = soma(5, 10);
-console.log(result0);
+  console.log(resultado);
   // @todo implementar retorno da operação aqui
 }
 
